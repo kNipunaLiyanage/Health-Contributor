@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/cv1"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a prenatal vitamin"
+        android:textColor="#d703082b"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/load_predictmens_date_history"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take a prenatal vitamin"
+        android:textColor="#d703082b"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/load_actualmens_date_history"
+        android:layout_marginTop="30dp"/>
+
+
+
+
+</LinearLayout>

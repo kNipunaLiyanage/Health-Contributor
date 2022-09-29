@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/signup_top"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select an option"
+                android:textSize="30sp"
+                android:textColor="#68329b"
+                android:letterSpacing="0.03"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="290px"
+            android:layout_height="600px"
+            android:background="@drawable/logz"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn1z"
+            android:text="Enter menstration details"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn2z"
+            android:text="Update menstration details"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn3z"
+            android:text="View your menstration history"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn4z"
+            android:text="Can't remember your menstration date"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you are a previous user you can update your details."
+            android:textColor="#68329b"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/zz1"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you are a new user you can Enter your details."
+            android:textColor="#68329b"
+            android:id="@+id/zz2"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
